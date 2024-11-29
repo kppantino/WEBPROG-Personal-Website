@@ -1,12 +1,11 @@
 body {
-    background-color: lightpink;
-    text-align: center;
+    background-color: #F4DBDB;
   }
   h1 {
-    color: plum;
+    color: #CD4662;
     text-align: center;
   }
   p {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Verdana;
     font-size: 20px;
   }
