@@ -15,4 +15,26 @@
 
 .body{
     color: #ffdbe5;
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px; 
+        background-color: #f4dbdb;
+    }
+    
+    .flex-container > div {
+        background-color: #cd4662;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        color: white; 
+    }
+    
+    body {
+        color: #333; 
+        font-family: monospace, sans-serif;
+    }
+    
 }
