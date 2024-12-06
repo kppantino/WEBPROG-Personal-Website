@@ -13,6 +13,7 @@ body {
   background-color: #f4dbdb;
   padding: 20px;
   gap: 15px;
+  margin-bottom: 20px; /* Add spacing between sections */
 }
 
 .flex-container > div {
@@ -22,6 +23,19 @@ body {
   padding: 15px;
   border-radius: 10px;
   color: #fff;
-  flex: 1; 
-  flex-wrap: wrap;
+  flex: 1;
+}
+
+.flex-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.flex-container a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.flex-container a:hover {
+  text-decoration: underline;
 }
