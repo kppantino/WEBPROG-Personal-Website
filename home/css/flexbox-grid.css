@@ -1,11 +1,11 @@
-.main-content {
+main-content {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.main-content .container {
+main-content, container {
     background-color: #ffbdeb; 
     color: #6E7755; 
     flex: 1;
