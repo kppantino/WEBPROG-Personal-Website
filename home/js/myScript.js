@@ -4,9 +4,9 @@ function myFunction() {
 
   
   function myFunction2() {
-    const element = document.getElementsByTagName("div");
+    const element = document.getElementsByTagName("body");
 
-    document.getElementById("demo").innerHTML = '<br> The text in first paragraph (index 0) is: <br>'
+    document.getElementById("demo").innerHTML = '<br> FUnction 2 Trial :))) : <br>'
     + element[0].innerHTML;
     
   }
