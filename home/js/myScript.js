@@ -4,7 +4,7 @@ function myFunction() {
 
   
   function myFunction2() {
-    const element = document.getElementsByTagName("body");
+    const element = document.getElementsById("bodyy");
 
     document.getElementById("demo").innerHTML = '<br> FUnction 2 Trial :))) : <br>'
     + element[0].innerHTML;
