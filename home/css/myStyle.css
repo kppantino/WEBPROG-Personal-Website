@@ -15,7 +15,7 @@
   }
   
   main {
-    color:#F4DBDB:
+    color:#F4DBDB;
     display: flex;
     flex-direction: row;
   }
@@ -28,6 +28,7 @@
     flex-wrap: wrap;
   }
   .main-content > div {
+    color:#F4DBDB;
     background-color: #CD4662;
     width: 300px;
     margin: 70px;
