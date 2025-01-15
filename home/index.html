@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kyla Amor Pantino Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/myStyle.css?version=0.1">
+  <link rel="stylesheet" href="./css/myStyles.css?version=0.1">
 </head>
 <body>
   <!-- Navigation Header -->
@@ -23,7 +23,7 @@
   <!-- Home Section -->
   <section id="home" class="home">
     <div class="home-content">
-      <img src="profile.svg" alt="Kyla Amor Pantino" class="profile-pic-large">
+      <img src="pics/profile.svg" alt="Kyla Amor Pantino" class="profile-pic-large">
       <h1>Kyla Amor Pantino</h1>
       <p>
         I'm a 20-year-old third-year student at Asia Pacific College, pursuing a Bachelor of Science in Information Technology with a specialization in Mobile and Internet Technology. Currently, I'm diving into the world of web development through my Website Programming class, where I'm learning how to bring creative ideas online.
@@ -34,32 +34,38 @@
   <!-- About Me Section -->
   <section id="about" class="about">
     <h2>About Me</h2>
-    <h3>Education</h3>
-    <ul>
-      <li>2010-2016: Elementary School - St. Scholastica's Academy</li>
-      <li>2016-2022: High School - Information and Communication Technology High School</li>
-      <li>2022 - Present: College - Asia Pacific College</li>
-    </ul>
 
-    <h3>Hobbies & Interests</h3>
-    <ul>
-      <li>Volleyball</li>
-      <li>Genshin Impact</li>
-      <li>Binge watching movies and series</li>
-    </ul>
+    <!-- Education Section -->
+    <div class="about-section">
+      <img src="icons/educIcon.png" alt="Education Icon" class="icon">
+      <div>
+        <h3>Education</h3>
+        <p>2010-2016: Elementary School - St. Scholastica's Academy</p>
+        <p>2016-2022: High School - Information and Communication Technology High School</p>
+        <p>2022 - Present: College - Asia Pacific College</p>
+      </div>
+    </div>
 
-    <h3>IT Experience</h3>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>PHP</li>
-      <li>MySQL</li>
-      <li>PowerBI</li>
-      <li>Tableau</li>
-      <li>Laravel</li>
-      <li>Frappe</li>
-    </ul>
+    <!-- Hobbies and Interests Section -->
+    <div class="about-section reverse">
+      <div>
+        <h3>Hobbies & Interests</h3>
+        <p><strong>Volleyball:</strong> Enjoying the thrill of team sports and competition.</p>
+        <p><strong>Genshin Impact:</strong> Exploring an immersive fantasy world in my free time.</p>
+        <p><strong>Binge-Watching:</strong> Relaxing with movies and series.</p>
+      </div>
+      <img src="volleyballIcon.png" alt="Volleyball Icon" class="icon">
+    </div>
+
+    <!-- IT Experience Section -->
+    <div class="about-section">
+      <img src="icons/genshinIcon.png" alt="Genshin Impact Icon" class="icon">
+      <div>
+        <h3>IT Experience</h3>
+        <p>HTML, CSS, JavaScript, PHP, MySQL</p>
+        <p>PowerBI, Tableau, Laravel, Frappe</p>
+      </div>
+    </div>
   </section>
 
   <!-- Picture Gallery Section -->
@@ -71,27 +77,27 @@
       <img src="pics/kylapic3.jpg" alt="Kyla Picture 3">
       <img src="pics/kylapic4.jpg" alt="Kyla Picture 4">
       <img src="pics/kylapic5.jpg" alt="Kyla Picture 5">
-      <img src="pics/kylapic6.jpg" alt="Kyla Picture 6">
+      <img src="pics/kylapic6.png" alt="Kyla Picture 6">
       <img src="pics/kylapic7.jpg" alt="Kyla Picture 7">
       <img src="pics/kylapic8.jpg" alt="Kyla Picture 8">
-      <img src="pics/kylapic9.jpg" alt="Kyla Picture 9">
-      <img src="pics/kylapic10.jpg" alt="Kyla Picture 10">
+      <img src="pics/kylapic8.png" alt="Kyla Picture 8">
+      <img src="pics/kylapic9.png" alt="Kyla Picture 9">
+      <img src="pics/kylapic10.png" alt="Kyla Picture 10">
     </div>
   </section>
 
   <!-- Contact Section -->
   <section id="contact" class="contact">
     <h2>Contact</h2>
-    <ul>
-      <li><strong>Facebook:</strong> <a href="https://www.facebook.com/kyla.pantino">Kyla Pantino</a></li>
-      <li><strong>Instagram:</strong> <a href="https://www.instagram.com/kylapantino">@kylapantino</a></li>
-      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kyla-amor-pantino-630755248/">Kyla Amor Pantino</a></li>
-      <li><strong>Email:</strong> <a href="mailto:kppantino@student.apc.edu.ph">kppantino@student.apc.edu.ph</a></li>
-    </ul>
+    <div class="about-section reverse">
+      <div>
+        <p><strong>Facebook:</strong> <a href="https://www.facebook.com/kyla.pantino">Kyla Pantino</a></p>
+        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/kylapantino">@kylapantino</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kyla-amor-pantino-630755248/">Kyla Amor Pantino</a></p>
+        <p><strong>Email:</strong> <a href="mailto:kppantino@student.apc.edu.ph">kppantino@student.apc.edu.ph</a></p>
+      </div>
+      <img src="icons/contactIcon.png" alt="Contact Icon" class="icon">
+    </div>
   </section>
 
-  <footer class="footer">
-    <p>© 2025 Kyla Amor Pantino. All Rights Reserved.</p>
-  </footer>
-</body>
 </html>
