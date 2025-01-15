@@ -1,76 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="./css/myStyle.css">
-    <title>Kyla's Profile</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kyla Amor Pantino Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="container">
-    <header> 
-        <h1>Personal Profile Web Page</h1>  
-    </header>
-    <main>
-      <section class="main-content">
-        <div>
-            <h4>About Me</h4>
-            <p>
-                Facebook: <a href="https://www.facebook.com/kyla.pantino/">Kyla Pantino</a><br>
-                Instagram: <a href="https://www.instagram.com/kylapantino/">@kylapantino</a><br>
-                LinkedIn: <a href="https://www.linkedin.com/in/kyla-amor-pantino-630755248/">Kyla Amor Pantino</a><br>
-                Email: kppantino@student.apc.edu.ph
-            </p>
-        </div>
-        <div>
-            <h4>Education</h4>
-            <p>
-                <strong>Elementary School:</strong> St. Scholastica's Academy, San Fernando, Pampanga<br>
-                <strong>Junior High School:</strong> Graduated With High Honors, ICT High School<br>
-                <strong>Senior High School:</strong> Graduated With Highest Honors, ICT High School<br>
-                <strong>College:</strong> BS in IT, Asia Pacific College, Makati, Metro Manila
-            </p>
-        </div>
-        <div>
-            <h4>IT Experience</h4>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>PHP</li>
-                <li>MySQL</li>
-                <li>Excel</li>
-                <li>PowerBI</li>
-                <li>Android Studio</li>
-                <li>Web Design</li>
-                <li>Laravel</li>
-                <li>Frappe</li>
-                <li>Django</li>
-            </ul> 
-        </div>  
-      </section>
-    </main>
+  <!-- Navigation Header -->
+  <header class="navbar">
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#gallery">Picture Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <footer>
-        <section>
-            <h4>Hobbies & Interests</h4>
-            <ul>
-                <li>Volleyball</li>
-                <li>Genshin Impact</li>
-                <li>Binge watching movies and series</li>
-            </ul>
-        </section>
-        <section>
-            <h4>Goals In Life / Dreams</h4>
-            <p>Travel to different countries:</p>
-            <ul>
-                <li>Switzerland</li>
-                <li>Japan</li>
-                <li>South Korea</li>
-            </ul>
-        </section>
-        <section>
-            <h4>Picture Gallery</h4>
-        </section>
-    </footer>
-  </div>
+  <!-- Home Section -->
+  <section id="home" class="home">
+    <div class="home-content">
+      <img src="profile.svg" alt="Kyla Amor Pantino" class="profile-pic-large">
+      <h1>Kyla Amor Pantino</h1>
+      <p>
+        I'm a 20-year-old third-year student at Asia Pacific College, pursuing a Bachelor of Science in Information Technology with a specialization in Mobile and Internet Technology. Currently, I'm diving into the world of web development through my Website Programming class, where I'm learning how to bring creative ideas online.
+      </p>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <h3>Education</h3>
+    <ul>
+      <li>2010-2016: Elementary School - St. Scholastica's Academy</li>
+      <li>2016-2022: High School - Information and Communication Technology High School</li>
+      <li>2022 - Present: College - Asia Pacific College</li>
+    </ul>
+
+    <h3>Hobbies & Interests</h3>
+    <ul>
+      <li>Volleyball</li>
+      <li>Genshin Impact</li>
+      <li>Binge watching movies and series</li>
+    </ul>
+
+    <h3>IT Experience</h3>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>PHP</li>
+      <li>MySQL</li>
+      <li>PowerBI</li>
+      <li>Tableau</li>
+      <li>Laravel</li>
+      <li>Frappe</li>
+    </ul>
+  </section>
+
+  <!-- Picture Gallery Section -->
+  <section id="gallery" class="gallery">
+    <h2>Picture Gallery</h2>
+    <div class="gallery-grid">
+      <img src="kylapic1.jpg" alt="Kyla Picture 1">
+      <img src="kylapic2.jpg" alt="Kyla Picture 2">
+      <img src="kylapic3.jpg" alt="Kyla Picture 3">
+      <img src="kylapic4.jpg" alt="Kyla Picture 4">
+      <img src="kylapic5.jpg" alt="Kyla Picture 5">
+      <img src="kylapic6.jpg" alt="Kyla Picture 6">
+      <img src="kylapic7.jpg" alt="Kyla Picture 7">
+      <img src="kylapic8.jpg" alt="Kyla Picture 8">
+      <img src="kylapic9.jpg" alt="Kyla Picture 9">
+      <img src="kylapic10.jpg" alt="Kyla Picture 10">
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <ul>
+      <li><strong>Facebook:</strong> <a href="https://www.facebook.com/kyla.pantino">Kyla Pantino</a></li>
+      <li><strong>Instagram:</strong> <a href="https://www.instagram.com/kylapantino">@kylapantino</a></li>
+      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kyla-amor-pantino-630755248/">Kyla Amor Pantino</a></li>
+      <li><strong>Email:</strong> <a href="mailto:kppantino@student.apc.edu.ph">kppantino@student.apc.edu.ph</a></li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Kyla Amor Pantino. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
