@@ -70,11 +70,11 @@ body {
 }
 
 .profile-pic-large {
-  width: 180px;
-  height: 180px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   border: 3px solid #8A2846;
-  margin: 0; /* Remove margin for better alignment */
+  margin: 0; /* Ensure better alignment with the intro */
 }
 
 .home-content {
@@ -93,15 +93,6 @@ body {
   max-width: 400px; /* Reduce the width for better alignment */
   margin: 0;
 }
-
-.profile-pic-large {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  border: 3px solid #8A2846;
-  margin-bottom: 20px;
-}
-
 
 
 /* About Me Section */
