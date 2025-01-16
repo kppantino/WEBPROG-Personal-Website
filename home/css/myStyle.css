@@ -67,9 +67,9 @@ body {
 .intro-box {
   display: flex;
   gap: 5px;
-  padding: 30px;
+  padding: 80px;
   border-radius: 20px;
-  background: rgba(183, 48, 113, 0.61);
+  background: rgba(183, 48, 113, 0.297);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   align-items: center;
 }
@@ -79,6 +79,7 @@ body {
   height: 150px;
   border-radius: 50%;
   border: 3px solid #FFC2D4;
+  margin-right: 20px;
 }
 
 .intro-text {
