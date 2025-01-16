@@ -191,8 +191,8 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 50px 20px;
-  background: linear-gradient(to right, #FFE0E9, #FFC2D4);
-  color: #602437;
+  background:#602437;
+  color: #FFE0E9;
   text-align: center;
 }
 
@@ -225,7 +225,7 @@ body {
 }
 
 .contact a {
-  color: #E05780;
+  color: #FFE0E9;
   text-decoration: none;
 }
 
