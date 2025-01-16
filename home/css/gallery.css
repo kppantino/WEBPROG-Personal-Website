@@ -1,0 +1,16 @@
+.gallery {
+    padding: 40px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .gallery-grid img:hover {
+    transform: scale(1.1);
+  }

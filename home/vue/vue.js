@@ -46,16 +46,3 @@ export default {
     }
   }
 };
-
-const app = Vue.createApp({
-  data() {
-    return {
-      itemName: null,
-      itemNumber: null,
-      shoppingList: [
-        { name: 'Tomatoes', number: 5 }
-      ]
-    }
-  }
-})
-app.mount('#app')
