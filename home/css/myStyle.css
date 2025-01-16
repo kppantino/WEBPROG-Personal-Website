@@ -168,28 +168,9 @@ body {
   justify-content: center;
 }
 
-.gallery-grid img {
-  width: calc(100% / 5 - 10px); 
-  height: auto;
-  border-radius: 15px;
-  transition: transform 0.3s;
-}
-
 .gallery-grid img:hover {
   transform: scale(1.1);
 }
-@media (max-width: 768px) {
-  .gallery {
-      width: calc(100% / 3 - 10px); /* 3 images per row on tablets */
-  }
-}
-
-@media (max-width: 480px) {
-  .gallery{
-      width: calc(100% / 2 - 10px); /* 2 images per row on mobile */
-  }
-}
-
 /* Contact Section */
 .contact {
   display: flex;

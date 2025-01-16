@@ -85,21 +85,21 @@
   </section>  
 
   <!-- Picture Gallery Section -->
-  <section id="gallery" class="gallery">
-    <h2>Picture Gallery</h2>
-    <div class="gallery-grid">
-      <img src="pics/kylapic1.jpg" alt="Kyla Picture 1">
-      <img src="pics/kylapic2.jpg" alt="Kyla Picture 2">
-      <img src="pics/kylapic3.jpg" alt="Kyla Picture 3">
-      <img src="pics/kylapic4.jpg" alt="Kyla Picture 4">
-      <img src="pics/kylapic5.jpg" alt="Kyla Picture 5">
-      <img src="pics/kylapic6.png" alt="Kyla Picture 6">
-      <img src="pics/kylapic7.jpg" alt="Kyla Picture 7">
-      <img src="pics/kylapic8.jpg" alt="Kyla Picture 8">
-      <img src="pics/kylapic9.JPG" alt="Kyla Picture 9">
-      <img src="pics/kylapic10.JPG" alt="Kyla Picture 10">
-    </div>
-  </section>
+  <template>
+    <section id="gallery" class="gallery">
+      <h2>Picture Gallery</h2>
+      <div class="gallery-grid">
+        <img 
+          v-for="(image, index) in images" 
+          :key="index" 
+          :src="image.src" 
+          :alt="image.alt" 
+          :style="getImageStyles()"
+        >
+      </div>
+    </section>
+  </template>
+  <script src="./gallery.js"></script>
 
 <!-- Contact Section -->
 <section id="contact" class="contact">
@@ -112,5 +112,5 @@
       <p>LinkedIn: <a href="https://www.linkedin.com/in/kyla-amor-pantino-630755248/">Kyla Amor Pantino</a></p>
     </div>
   </section>
-  
+
 </html>
