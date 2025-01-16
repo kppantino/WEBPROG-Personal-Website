@@ -62,11 +62,12 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: #000000;
 }
 
 .intro-box {
   display: flex;
-  gap: 20px;
+  gap: 15px;
   padding: 30px;
   border-radius: 20px;
   background: rgba(0, 0, 0, 0.4);
@@ -99,8 +100,10 @@ body {
 }
 /* About Me Section */
 .about-me {
-  padding: 90px 40px;
+  padding: 50px 80px; 
+  background: black
 }
+
 .about-me h2 {
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
