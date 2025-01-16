@@ -58,7 +58,6 @@ body {
 /* Home Section */
 .home {
   padding: 50px 20px;
-  background: linear-gradient(to right, #FFC2D4, #FFE0E9);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,14 +99,12 @@ body {
 }
 /* About Me Section */
 .about-me {
-  padding: 50px 20px;
-  background: linear-gradient(to right, #FFE0E9, #FFC2D4);
+  padding: 90px 40px;
 }
-
 .about-me h2 {
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
-  color: #602437;
+  color: #FFE0E9;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -132,7 +129,7 @@ body {
 
 .about-text {
   font-family: 'Poppins', sans-serif;
-  color: #602437;
+  color: #FFE0E9;
   max-width: 600px;
 }
 
@@ -185,8 +182,8 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 50px 20px;
-  background-color: #602437;
-  color: #FFE0E9;
+  background: linear-gradient(to right, #FFE0E9, #FFC2D4);
+  color: #602437;
   text-align: center;
 }
 
