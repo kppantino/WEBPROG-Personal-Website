@@ -64,14 +64,15 @@ body {
   display: flex; 
   align-items: center; 
   justify-content: center; 
-  gap: 20px; 
+  gap:40px; 
   background: rgba(0, 0, 0, 0.5); 
   border-radius: 15px;
+  margin-bottom: 30px;
 }
 
 .profile-pic-large {
-  width: 140px;
-  height: 140px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   border: 3px solid #8A2846;
   margin: 0; 
@@ -90,7 +91,7 @@ body {
 .home-content p {
   font-size: 1.2rem; 
   line-height: 1.6; 
-  max-width: 400px; 
+  max-width: 900px; 
   margin: 0;
 }
 
