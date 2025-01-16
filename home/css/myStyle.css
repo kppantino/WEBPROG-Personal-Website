@@ -189,7 +189,7 @@ body {
 }
 
 .contact-content {
-  background: rgba(207, 62, 137, 0.6);
+  background: linear-gradient(to bottom, #000,#602437);
   padding: 30px;
   border-radius: 15px;
   max-width: 600px;
