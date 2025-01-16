@@ -1,19 +1,25 @@
-const app3 = Vue.createApp({
+const suggest = Vue.createApp({
     data() {
       return {
-        Suggestions:null,
-      }
+        guestName: '',
+        guestSuggest: '',
+        Suggestions: []  
+      };
     },
     methods: {
-      addSuggest(){
-        let item = {
-          name: this.itemName,
-        }
-        this.shoppingList.push(item)
-        this.itemName = null
-        this.itemNumber = null  
-        this.itemImportant = false
+      addSuggest() {
+       
+        const newSuggestion = {
+          id: this.Suggestions.length + 1, 
+          name: this.guestName,
+          message: this.guestSuggest
+        };
+        this.Suggestions.push(newSuggestion); 
+        this.guestName = '';
+        this.guestSuggest = '';
       }
     }
-  })
- app3.mount('#app3')
+  });
+
+
+suggest.mount('#suggestions');

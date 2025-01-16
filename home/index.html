@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/myStyle.css?version=0.1">
   <link href="./css/gallery.css"></link> 
+  <link href="./css/suggestions.css"></link> 
   <link rel="icon" type="image/png" href="./icons/kpIcon.png">
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
 </head>
@@ -89,9 +90,11 @@
   <!-- Picture Gallery Section -->
   <section id="gallery" class="gallery">
     <h2>Picture Gallery</h2>
-    <div id="app">
-        <Gallery /> 
-      </div>
+    <div>
+        <div id="app">
+            <Gallery /> 
+          </div>
+    </div>
   </section>
 
 <!-- Contact Section -->
@@ -106,8 +109,32 @@
     </div>
   </section>
 
+  <div id="suggestions" class="container guestbook-container">
+    <div class="header">
+      <div class="title-container">Suggestions</div>
+    </div>
+    <form @submit.prevent="addSuggest">
+      <div>
+        <p>
+          Name: <br>
+          <input type="text" v-model="guestName" placeholder="Enter your name" required />
+        </p>
+        <p>
+          Suggestions? <br>
+          <textarea v-model="guestSuggest" placeholder="Write your suggestions here" rows="4" required></textarea>
+        </p>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+    <div class="comment-section">
+      <div v-for="suggest in Suggestions" :key="suggest.id" class="suggest">
+        <p><strong>{{ suggest.name }}</strong></p>
+        <p>{{ suggest.message }}</p>
+      </div>
+    </div>
+</div>
+
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="js/gallery.js"></script>
-
-
+    <script src="js/suggest.js"></script>
 </html>

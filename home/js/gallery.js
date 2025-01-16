@@ -1,8 +1,8 @@
-const app = Vue.createApp({
+const Gallery = Vue.createApp({
     data() {
      return {
         images: [
-          { src: 'pics/kylapic1.jpg', alt: 'Kyla Picture 1' },
+          { src: './pics/kylapic1.jpg', alt: 'Kyla Picture 1' },
           { src: 'pics/kylapic2.jpg', alt: 'Kyla Picture 2' },
           { src: 'pics/kylapic3.jpg', alt: 'Kyla Picture 3' },
           { src: 'pics/kylapic4.jpg', alt: 'Kyla Picture 4' },
@@ -16,4 +16,4 @@ const app = Vue.createApp({
      }
     }
    })
-   app2.mount('#app')
+   Gallery.mount('#Gallery')
