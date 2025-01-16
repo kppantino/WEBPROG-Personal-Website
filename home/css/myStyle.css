@@ -61,11 +61,11 @@ body {
 .home {
   text-align: center;
   padding: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px; /* Space between the intro and profile picture */
-  background: rgba(0, 0, 0, 0.5); /* Optional: Add a slight overlay effect */
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 20px; 
+  background: rgba(0, 0, 0, 0.5); 
   border-radius: 15px;
 }
 
@@ -74,23 +74,23 @@ body {
   height: 140px;
   border-radius: 50%;
   border: 3px solid #8A2846;
-  margin: 0; /* Ensure better alignment with the intro */
+  margin: 0; 
 }
 
 .home-content {
-  text-align: left; /* Align text to the left */
+  text-align: left; 
 }
 
 .home-content h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 2.5rem; /* Slightly adjust the size */
+  font-size: 2.5rem; 
   margin-bottom: 10px;
 }
 
 .home-content p {
-  font-size: 1.2rem;
-  line-height: 1.6;
-  max-width: 400px; /* Reduce the width for better alignment */
+  font-size: 1.2rem; 
+  line-height: 1.6; 
+  max-width: 400px; 
   margin: 0;
 }
 
