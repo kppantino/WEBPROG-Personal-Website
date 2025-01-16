@@ -13,7 +13,7 @@ body {
   top: 0;
   z-index: 1000;
   background: linear-gradient(135deg, #602437, #8A2846);
-  padding: 10px 20px;
+  padding: 10px 50px; 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,7 +41,8 @@ body {
 
 .nav-links {
   display: flex;
-  gap: 15px;
+  gap: 20px; 
+  align-items: center; 
 }
 
 .nav-links a {
@@ -49,6 +50,7 @@ body {
   font-size: 1rem;
   color: #FFE0E9;
   text-decoration: none;
+  padding: 5px 10px; 
 }
 
 .nav-links a:hover {
@@ -59,6 +61,12 @@ body {
 .home {
   text-align: center;
   padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Space between the intro and profile picture */
+  background: rgba(0, 0, 0, 0.5); /* Optional: Add a slight overlay effect */
+  border-radius: 15px;
 }
 
 .profile-pic-large {
@@ -66,21 +74,34 @@ body {
   height: 180px;
   border-radius: 50%;
   border: 3px solid #8A2846;
-  margin-bottom: 20px;
+  margin: 0; /* Remove margin for better alignment */
+}
+
+.home-content {
+  text-align: left; /* Align text to the left */
 }
 
 .home-content h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 3rem;
+  font-size: 2.5rem; /* Slightly adjust the size */
   margin-bottom: 10px;
 }
 
 .home-content p {
   font-size: 1.2rem;
   line-height: 1.6;
-  max-width: 600px;
-  margin: 0 auto;
+  max-width: 400px; /* Reduce the width for better alignment */
+  margin: 0;
 }
+
+.profile-pic-large {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 3px solid #8A2846;
+  margin-bottom: 20px;
+}
+
 
 
 /* About Me Section */
