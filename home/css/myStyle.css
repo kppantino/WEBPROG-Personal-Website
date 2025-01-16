@@ -7,18 +7,17 @@ body {
   padding: 0;
 }
 
-/* Sticky Header */
-.sticky-header {
+
+header {
   position: sticky;
-  top: 10px;
+  top: 10px; /* Adjusted for more floating effect */
   z-index: 1000;
-  background: linear-gradient(135deg, #602437, #8A2846);
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background: rgba(96, 36, 55, 0.9); /* Semi-transparent for floating effect */
+  padding: 10px 50px; /* Reduce padding for a sleeker appearance */
   border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  margin: 10px auto; /* Add margin to create floating space */
+  width: 95%; /* Width for slight central floating effect */
 }
 
 .header-content {
@@ -63,28 +62,35 @@ body {
   align-items: center;
   height: 100vh;
 }
+.intro-section {
+  margin-top: 20px; 
+}
 
-.intro-box {
+.intro {
   display: flex;
-  gap: 5px;
-  padding: 80px;
-  border-radius: 20px;
-  background: rgba(183, 48, 113, 0.297);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(96, 36, 55, 0.1); /* Subtle blurred background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px); /* Apply blur effect */
 }
 
 .profile-pic {
+  border-radius: 50%;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid #FFC2D4;
-  margin-right: 20px;
+  object-fit: cover;
+  border: 4px solid #FFC2D4; 
 }
+
 
 .intro-text {
   font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
   color: #FFE0E9;
+  text-align: left;
   max-width: 600px;
 }
 
