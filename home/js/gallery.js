@@ -16,7 +16,7 @@ const Gallery = Vue.createApp({
     };
   },
   template: `
-    <div class="gallery-images">
+    <div class="gallery-grid">
       <img v-for="image in images" :key="image.alt" :src="image.src" :alt="image.alt" class="gallery-image">
     </div>
   `
