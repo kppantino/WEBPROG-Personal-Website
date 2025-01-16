@@ -5,7 +5,7 @@
   </template>
   
   <script>
-  import Gallery from './components/Gallery.vue';
+  import Gallery from 'vue/pics';
   
   export default {
     components: {

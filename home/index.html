@@ -6,7 +6,9 @@
   <title>Personal Website</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/myStyle.css?version=0.1">
+  <link href="./css/gallery.css"></link> 
   <link rel="icon" type="image/png" href="./icons/kpIcon.png">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
 </head>
 <body>
 
@@ -26,7 +28,7 @@
   
   <!-- Home Section -->
   <section id="home" class="home">
-    <img src="pics/profile.svg" alt="Profile Picture" class="profile-pic-large">
+    <img src="vue/pics/profile.svg" alt="Profile Picture" class="profile-pic-large">
     <div class="home-content">
       <div class="intro-text">
         <h2>Hello, I'm Kyla Amor Pantino!</h2>
@@ -85,29 +87,12 @@
   </section>  
 
   <!-- Picture Gallery Section -->
-  <template>
-    <div id="app">
-      <Gallery />
+  <section id="gallery" class="gallery">
+    <h2>Picture Gallery</h2>
+    <div id="app"> <!-- Vue app will be mounted here -->
+      <gallery></gallery> <!-- Using a Vue component for the gallery -->
     </div>
-  </template>
-
-  <template>
-    <section id="gallery" class="gallery">
-      <h2>Picture Gallery</h2>
-      <div class="gallery-grid">
-        <img 
-          v-for="(image, index) in images" 
-          :key="index" 
-          :src="image.src" 
-          :alt="image.alt" 
-          :style="getImageStyles()"
-        >
-      </div>
-    </section>
-  </template>
-  
-  <style src="./css/gallery.css"></style> 
-  <script src="./vue/vue.js"></script>
+  </section>
 
 <!-- Contact Section -->
 <section id="contact" class="contact">
@@ -120,5 +105,7 @@
       <p>LinkedIn: <a href="https://www.linkedin.com/in/kyla-amor-pantino-630755248/">Kyla Amor Pantino</a></p>
     </div>
   </section>
+
+  <script src="./vue/gallery.js"></script>
 
 </html>
