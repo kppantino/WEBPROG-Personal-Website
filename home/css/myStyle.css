@@ -213,15 +213,18 @@ body {
   font-size: 1.1rem;
   margin: 10px 0;
   color: #FFE0E9;
+  font-size: 1rem; 
 }
 
 .contact a {
   color: #FFE0E9;
   text-decoration: none;
+  font-size: 1rem; 
 }
 
 .contact a:hover {
   text-decoration: underline;
   color: #FF9EBB;
+  font-size: 1rem; 
 }
 
