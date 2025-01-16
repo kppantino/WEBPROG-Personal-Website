@@ -7,17 +7,18 @@ body {
   padding: 0;
 }
 
-
-header {
+/* Sticky Header */
+.sticky-header {
   position: sticky;
-  top: 10px; /* Adjusted for more floating effect */
+  top: 0;
   z-index: 1000;
-  background: rgba(96, 36, 55, 0.9); /* Semi-transparent for floating effect */
-  padding: 10px 50px; /* Reduce padding for a sleeker appearance */
+  background: linear-gradient(135deg, #602437, #8A2846);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-  margin: 10px auto; /* Add margin to create floating space */
-  width: 95%; /* Width for slight central floating effect */
 }
 
 .header-content {
@@ -27,8 +28,8 @@ header {
 }
 
 .header-icon {
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
 
@@ -56,54 +57,32 @@ header {
 
 /* Home Section */
 .home {
-  padding: 20px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-.intro-section {
-  margin-top: 20px; 
+  text-align: center;
+  padding: 40px;
 }
 
-.intro {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  border-radius: 15px;
-  background: rgba(96, 36, 55, 0.1); /* Subtle blurred background */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(10px); /* Apply blur effect */
-}
-
-.profile-pic {
+.profile-pic-large {
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border: 4px solid #FFC2D4; 
+  border: 3px solid #8A2846;
+  margin-bottom: 20px;
 }
 
-
-.intro-text {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.2rem;
-  color: #FFE0E9;
-  text-align: left;
-  max-width: 600px;
-}
-
-.intro-text h2 {
+.home-content h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 2rem;
-  margin-bottom: 15px;
+  font-size: 3rem;
+  margin-bottom: 10px;
 }
 
-.intro-text p {
-  font-size: 1rem;
-  line-height: 1.5;
+.home-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
 }
+
+
 /* About Me Section */
 .about-me {
   padding: 50px 150px; 
