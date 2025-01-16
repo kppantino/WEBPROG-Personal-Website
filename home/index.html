@@ -8,72 +8,70 @@
   <link rel="stylesheet" href="./css/myStyle.css?version=0.1">
 </head>
 <body>
-  <!-- Navigation Header -->
-  <header class="navbar">
-    <nav>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#gallery">Picture Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+<!-- Header -->
+<header class="sticky-header">
+    <div class="header-content">
+      <img src="kpIcon.png" alt="Kyla Pantino Icon" class="header-icon">
+      <h1>Portfolio</h1>
+    </div>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#gallery">Picture Gallery</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
-
+  
   <!-- Home Section -->
   <section id="home" class="home">
-    <div class="home-content">
-      <div class="home-left">
-        <img src="pics/profile.svg" alt="Kyla Amor Pantino" class="profile-pic">
-      </div>
-      <div class="home-right">
-        <h1>Kyla Amor Pantino</h1>
+    <div class="intro-box">
+      <img src="profile.svg" alt="Profile Picture" class="profile-pic">
+      <div class="intro-text">
+        <h2>Hello, I'm Kyla Amor Pantino!</h2>
         <p>
-          I'm a 20-year-old third-year student at Asia Pacific College, pursuing a Bachelor of Science in Information Technology with a specialization in Mobile and Internet Technology. Currently, I'm diving into the world of web development through my Website Programming class, where I'm learning how to bring creative ideas online.
+          I'm a 20-year-old third-year student at Asia Pacific College, 
+          pursuing a Bachelor of Science in Information Technology with a 
+          specialization in Mobile and Internet Technology. Currently, I'm diving 
+          into the world of web development through my Website Programming class, 
+          where I'm learning how to bring creative ideas online. Thanks for stopping by, 
+          and feel free to explore!
         </p>
       </div>
     </div>
   </section>
-
+  
   <hr>
 
-  <!-- About Me Section -->
-  <section id="about" class="about">
-    <h2>About Me</h2>
-
-    <!-- Education Section -->
-    <div class="about-section">
-      <img src="icons/educIcon.png" alt="Education Icon" class="icon">
-      <div>
-        <h3>Education</h3>
-        <p>2010-2016: Elementary School - St. Scholastica's Academy</p>
-        <p>2016-2022: High School - Information and Communication Technology High School</p>
-        <p>2022 - Present: College - Asia Pacific College</p>
+ <!-- About Me Section -->
+<section id="about" class="about">
+    <div class="about-content">
+      <img src="educIcon.jpg" alt="Education Icon" class="about-icon">
+      <h2>About Me</h2>
+      <div class="about-item">
+        <img src="educIcon.jpg" alt="Education Icon" class="about-item-icon">
+        <p><strong>Education:</strong><br>
+          2010-2016: Elementary School - St. Scholastica's Academy<br>
+          2016-2022: High School - Information and Communication Technology High School<br>
+          2022 - Present: College - Asia Pacific College
+        </p>
       </div>
-    </div>
-
-    <!-- Hobbies and Interests Section -->
-    <div class="about-section reverse">
-      <div>
-        <h3>Hobbies & Interests</h3>
-        <p><strong>Volleyball:</strong> Enjoying the thrill of team sports and competition.</p>
-        <p><strong>Genshin Impact:</strong> Exploring an immersive fantasy world in my free time.</p>
-        <p><strong>Binge-Watching:</strong> Relaxing with movies and series.</p>
+      <div class="about-item about-alt">
+        <img src="icons/hobbies.png" alt="Volleyball Icon" class="about-item-icon">
+        <p><strong>Hobbies & Interests:</strong><br>
+          Volleyball<br>
+          Genshin Impact<br>
+          Binge watching movies and series
+        </p>
       </div>
-      <img src="icons/volleyballIcon.png" alt="Volleyball Icon" class="icon">
-    </div>
-
-    <!-- IT Experience Section -->
-    <div class="about-section">
-      <img src="icons/genshinIcon.png" alt="Genshin Impact Icon" class="icon">
-      <div>
-        <h3>IT Experience</h3>
-        <p>HTML, CSS, JavaScript, PHP, MySQL</p>
-        <p>PowerBI, Tableau, Laravel, Frappe</p>
+      <div class="about-item">
+        <img src="icons/code.png" alt="Movies Icon" class="about-item-icon">
+        <p><strong>IT Experience:</strong><br>
+          HTML, CSS, JavaScript, PHP, MySQL, PowerBI, Tableau, Laravel, Frappe
+        </p>
       </div>
     </div>
   </section>
-
+  
   <hr>
 
   <!-- Picture Gallery Section -->
